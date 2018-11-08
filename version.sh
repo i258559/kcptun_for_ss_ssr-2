@@ -20,7 +20,6 @@ export SSR_YUM_INIT="https://raw.githubusercontent.com/Aurwen/kcptun_for_ss_ssr/
 export SSR_APT_INIT="https://raw.githubusercontent.com/Aurwen/kcptun_for_ss_ssr/master/ssr_apt.init"
 # SSRR
 #export SSRR_VER=3.2.2
-export SSRR_VER=$(wget --no-check-certificate -qO- https://raw.githubusercontent.com/onekeyshell/shadowsocksr/akkariiin/master/shadowsocks/version.py | grep return | cut -d\' -f2 | awk '{print $2}')
 export SSRR_LINK="https://github.com/shadowsocksrr/shadowsocksr/archive/3.2.2.tar.gz"
 export SSRR_YUM_INIT="https://raw.githubusercontent.com/Aurwen/kcptun_for_ss_ssr/master/ssrr.init"
 export SSRR_APT_INIT="https://raw.githubusercontent.com/Aurwen/kcptun_for_ss_ssr/master/ssrr_apt.init"
